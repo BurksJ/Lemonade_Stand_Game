@@ -9,12 +9,20 @@ namespace Lemonade_Stand_Game
     class Cost_Per_Glass
     {
         //member variables
-
+        /*customer charge for glass of lemonade
+         * 
+         */  
 
         //constructor
+        public Cost_Per_Glass()
+        {
+           
+        }
 
-
+        
         //methods
+
+
 
     }
 }

@@ -9,12 +9,25 @@ namespace Lemonade_Stand_Game
     class Inventory
     {
         //member variables
-        
-        
+        /*Costs of the following:
+         * glasses
+         * lemons
+         * ice
+         * sugar
+         * pitch
+         * 
+         */
+      
         //constructor
-        
-        
+        public Inventory()
+        {
+
+        }
+
+
         //methods
-           
+
+
+
     }
 }

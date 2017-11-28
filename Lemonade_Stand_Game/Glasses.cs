@@ -9,12 +9,20 @@ namespace Lemonade_Stand_Game
     class Glasses
     {
         //memeber variables
-
+        /*recipe charge given to customer
+         * 
+         */ 
 
         //constructor
+        public Glasses()
+        {
 
+        }
 
+        
         //methods
+
+
 
     }
 }

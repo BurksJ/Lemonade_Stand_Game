@@ -9,12 +9,24 @@ namespace Lemonade_Stand_Game
     class Ice
     {
         //member variables
-
+        /* Ice Options:
+         * no ice
+         * light ice
+         * regular ice
+         * extra ice
+         * 
+         */
 
         //constructor
+        public Ice()
+        {
+
+        }
 
 
         //methods
+
+
 
     }
 }

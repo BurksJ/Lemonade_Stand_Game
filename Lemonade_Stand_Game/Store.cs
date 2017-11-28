@@ -9,12 +9,22 @@ namespace Lemonade_Stand_Game
     class Store
     {
         //member variables
+        /*profit = cost per glass- inventory cost
+         * profit ++
+         * 
+         */
 
 
         //constructor
+        public Store()
+        {
+
+        }
 
 
         //methods
+
+
 
     }
 }

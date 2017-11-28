@@ -9,12 +9,22 @@ namespace Lemonade_Stand_Game
     class Pitcher
     {
         //member variables
+        /*Holds the amount of lemons, ice, sugar
+         * pours solution into glass
+         * 
+         */
 
 
         //constructor
+        public Pitcher()
+        {
+
+        }
 
 
         //methods
+
+
 
     }
 }
