@@ -10,11 +10,9 @@ namespace Lemonade_Stand_Game
     {
         //memeber variables
         /*Sugar cost options:
-         * no sugar $0.00
-         * light sugar $0.05
-         * regular sugar $0.15
-         * heavy sugar $0.25
-         * 
+         10 cups of sugar for .70
+         25 cups of sugar for 1.40
+         50 cups of sugar for 2.60
          */
 
 

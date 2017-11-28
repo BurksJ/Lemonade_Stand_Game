@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lemonade_Stand_Game
 {
-    class Weather_Forcast
+    class Weather_Forecast
     {
         //member variables
         /* Each day Random num = new Random();
+         * weather list
          * Rainy = 1
          * Sunny = 2
          * partly-cloudy = 3
@@ -18,7 +19,7 @@ namespace Lemonade_Stand_Game
          */
 
         //constructor
-        public Weather_Forcast()
+        public Weather_Forecast()
         {
             Random num = new Random();
         }
@@ -26,7 +27,7 @@ namespace Lemonade_Stand_Game
 
         //methods
 
-
+        //method for temperature in degrees
 
     }
 }
