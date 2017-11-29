@@ -10,14 +10,13 @@ namespace Lemonade_Stand_Game
     {
         //member variables
         /* Each day Random num = new Random();
-         * weather list
          * Rainy = 1
          * Sunny = 2
          * partly-cloudy = 3
          * hot and sunny = 4 
          * 
          */
-
+        List<string> forecast = new List<string>(new string[] { "rainy", "sunny", "partly cloudy", "hot and sunny" });
         //constructor
         public Weather_Forecast()
         {

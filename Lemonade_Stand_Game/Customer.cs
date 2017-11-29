@@ -9,7 +9,7 @@ namespace Lemonade_Stand_Game
     class Customer
     {
         //memeber variables
-        /*customer gets charged cost per glass
+        /*customer buys and ahs preferences 
          * number of customers per day depends on weatherforecast
          * on rainy day 0-2
          * on partly-cloudy day 0-4
