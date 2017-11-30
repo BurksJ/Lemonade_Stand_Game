@@ -10,6 +10,7 @@ namespace Lemonade_Stand_Game
     {
         //member variables
         Customer customer;
+        Day day;
         /*This game is 7 days long
          * weather forecast determines # of customers
          * add total for each day
@@ -19,7 +20,7 @@ namespace Lemonade_Stand_Game
         //constructor
         public Day()
         {
-
+        
         }
 
         

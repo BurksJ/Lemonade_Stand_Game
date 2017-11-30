@@ -10,8 +10,10 @@ namespace Lemonade_Stand_Game
     {
         static void Main(string[] args)
         {
+            Weather_Forecast w = new Weather_Forecast();
+            w.DisplayWeather();
             Game game = new Game();
-            game.RunGame();
+           // game.RunGame();
             Console.ReadKey();
         }
     }

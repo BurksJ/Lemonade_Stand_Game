@@ -10,7 +10,7 @@ namespace Lemonade_Stand_Game
     {
         //memeber variables
         /*recipe charge given to customer
-         * 
+         * Cost per glass
          */ 
 
         //constructor

@@ -1,1 +1,6 @@
 c:\users\jared\documents\visual studio 2015\Projects\Lemonade_Stand_Game\Lemonade_Stand_Game\bin\Debug\Lemonade_Stand_Game.exe.config
+C:\Users\Jared\Documents\Visual Studio 2015\Projects\Lemonade_Stand_Game\Lemonade_Stand_Game\obj\Debug\Lemonade_Stand_Game.csprojResolveAssemblyReference.cache
+C:\Users\Jared\Documents\Visual Studio 2015\Projects\Lemonade_Stand_Game\Lemonade_Stand_Game\bin\Debug\Lemonade_Stand_Game.exe
+C:\Users\Jared\Documents\Visual Studio 2015\Projects\Lemonade_Stand_Game\Lemonade_Stand_Game\bin\Debug\Lemonade_Stand_Game.pdb
+C:\Users\Jared\Documents\Visual Studio 2015\Projects\Lemonade_Stand_Game\Lemonade_Stand_Game\obj\Debug\Lemonade_Stand_Game.exe
+C:\Users\Jared\Documents\Visual Studio 2015\Projects\Lemonade_Stand_Game\Lemonade_Stand_Game\obj\Debug\Lemonade_Stand_Game.pdb
