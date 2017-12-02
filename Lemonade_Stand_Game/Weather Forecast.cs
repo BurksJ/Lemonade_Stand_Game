@@ -8,23 +8,18 @@ namespace Lemonade_Stand_Game
 {
     public class Weather_Forecast
     {
+        //member variables
         Random num = new Random();
         int forecast;
         int degrees;
         List<string> forecastList = new List<string>(new string[] { "rainy", "sunny", "partly cloudy", "hot and sunny" });
         public string dailyForecast;
-        //member variables
-        /* Each day Random num = new Random();
-         * Rainy = 1
-         * Sunny = 2
-         * partly-cloudy = 3
-         * hot and sunny = 4 
-         * 
-         */
+
 
         //constructor
         public Weather_Forecast()
         {
+
         }
 
 
@@ -50,21 +45,31 @@ namespace Lemonade_Stand_Game
             return degrees;
         }
 
-        //method for temperature in degrees
-        //rainy to (50-65degrees)
-        //party-cloudy to (65-70)
-        //sunny to (70-85)
-        //hot and sunny to (85-100)
+
         public string Forecast()
         {
             int forecast = num.Next(0, 3);
             dailyForecast = forecastList[forecast];
             return dailyForecast;          
         }
-        public void DisplayWeather()
+        public void PredictedWeather()
         {
             Forecast();
             Console.WriteLine("Today's weather prediction is " + Temperature() + " and " + dailyForecast);
         }
+
+        public int ActualTemp()
+        {
+            int weatherVariation = num.Next(-5, 6);
+            int realTemp = degrees + weatherVariation;
+            return realTemp;
+        }
+
+        public void DisplayRealWeather()
+        {
+            Console.WriteLine("Today's actual weather is " + ActualTemp() + " and " + dailyForecast);
+        }
+
+
     }
 }

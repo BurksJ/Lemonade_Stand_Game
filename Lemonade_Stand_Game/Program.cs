@@ -11,7 +11,8 @@ namespace Lemonade_Stand_Game
         static void Main(string[] args)
         {
             Weather_Forecast w = new Weather_Forecast();
-            w.DisplayWeather();
+            w.PredictedWeather();
+            w.DisplayRealWeather();
             Game game = new Game();
            // game.RunGame();
             Console.ReadKey();

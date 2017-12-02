@@ -9,15 +9,14 @@ namespace Lemonade_Stand_Game
     class Inventory
     {
         //member variables
-        /*Costs of the following:
-         * glasses
-         * lemons
-         * ice
-         * sugar
-         * pitch
-         * 
-         */
-      
+        public List<Glasses> cups = new List<Glasses>(new Glasses[] { });
+        public List<Ice> ice = new List<Ice>(new Ice[] { });
+        public List<Lemons> lemons = new List<Lemons>(new Lemons[] { } );
+        public List<Sugar> sugar = new List<Sugar>(new Sugar[] { });
+
+        //Costs of the following: glasses, ice, lemons, pitcher, sugar
+
+
         //constructor
         public Inventory()
         {
